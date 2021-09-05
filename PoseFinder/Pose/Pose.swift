@@ -32,17 +32,17 @@ struct Pose {
         Edge(from: .nose, to: .rightEye, index: 2),
         Edge(from: .rightEye, to: .rightEar, index: 3),
         Edge(from: .nose, to: .leftShoulder, index: 4),
-        Edge(from: .leftShoulder, to: .leftElbow, index: 5),
-        Edge(from: .leftElbow, to: .leftWrist, index: 6),
+        Edge(from: .leftShoulder, to: .leftElbow, index: 5),//here leftElbow 1
+        Edge(from: .leftElbow, to: .leftWrist, index: 6),//here leftElbow 1
         Edge(from: .leftShoulder, to: .leftHip, index: 7),
-        Edge(from: .leftHip, to: .leftKnee, index: 8),
-        Edge(from: .leftKnee, to: .leftAnkle, index: 9),
+        Edge(from: .leftHip, to: .leftKnee, index: 8),// here leftKnee 2
+        Edge(from: .leftKnee, to: .leftAnkle, index: 9),// here leftKnee 2
         Edge(from: .nose, to: .rightShoulder, index: 10),
-        Edge(from: .rightShoulder, to: .rightElbow, index: 11),
-        Edge(from: .rightElbow, to: .rightWrist, index: 12),
+        Edge(from: .rightShoulder, to: .rightElbow, index: 11),//here rightElbow 3
+        Edge(from: .rightElbow, to: .rightWrist, index: 12),//here rightElbow 3
         Edge(from: .rightShoulder, to: .rightHip, index: 13),
-        Edge(from: .rightHip, to: .rightKnee, index: 14),
-        Edge(from: .rightKnee, to: .rightAnkle, index: 15)
+        Edge(from: .rightHip, to: .rightKnee, index: 14),// here rightKnee 4
+        Edge(from: .rightKnee, to: .rightAnkle, index: 15)// here rightKnee 4
     ]
 
     /// The joints that make up a pose.
@@ -99,5 +99,11 @@ struct Pose {
     /// - returns: All edges that connect to or from `jointName`.
     static func edge(from parentJointName: Joint.Name, to childJointName: Joint.Name) -> Edge? {
         return Pose.edges.first(where: { $0.parent == parentJointName && $0.child == childJointName })
+    }
+    func corrnerOf() -> Int{
+        
+        
+        
+        return 2
     }
 }

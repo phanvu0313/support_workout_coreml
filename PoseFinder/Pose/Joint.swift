@@ -26,6 +26,10 @@ class Joint {
         case rightKnee
         case leftAnkle
         case rightAnkle
+        
+        var name: String {
+                get { return String(describing: self) }
+            }
     }
 
     /// The total number of joints available.

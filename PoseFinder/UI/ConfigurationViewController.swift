@@ -26,14 +26,14 @@ class ConfigurationViewController: UIViewController {
     @IBOutlet var localJointSearchRadiusSlider: UISlider!
     @IBOutlet var matchingJointMinimumDistanceLabel: UILabel!
     @IBOutlet var matchingJointMinimumDistanceSlider: UISlider!
-    @IBOutlet var adjacentJointOffsetRefinementStepsLabel: UILabel!
-    @IBOutlet var adjacentJointOffsetRefinementStepsSlider: UISlider!
+    //@IBOutlet var adjacentJointOffsetRefinementStepsLabel: UILabel!
+    //@IBOutlet var adjacentJointOffsetRefinementStepsSlider: UISlider!
 
-    let jointConfidenceThresholdText = "Joint confidence threshold"
-    let poseConfidenceThresholdText = "Pose confidence threshold"
-    let localJointSearchRadiusText = "Local joint search radius"
-    let matchingJointMinimumDistanceText = "Matching joint minimum distance"
-    let adjacentJointOffsetRefinementStepsText = "Adjacent joint refinement steps"
+    let jointConfidenceThresholdText = "Độ tin cậy các điểm"
+    let poseConfidenceThresholdText = "Độ tin cậy hình dáng"
+    let localJointSearchRadiusText = "Bán kính xác định điểm"
+    let matchingJointMinimumDistanceText = "Khoảng cách bắt điểm nhỏ nhất"
+    //let adjacentJointOffsetRefinementStepsText = "Adjacent joint refinement steps"
 
     weak var delegate: ConfigurationViewControllerDelegate?
 
@@ -59,7 +59,7 @@ class ConfigurationViewController: UIViewController {
         poseConfidenceThresholdSlider.value = Float(configuration.poseConfidenceThreshold)
         localJointSearchRadiusSlider.value = Float(configuration.localSearchRadius)
         matchingJointMinimumDistanceSlider.value = Float(configuration.matchingJointDistance)
-        adjacentJointOffsetRefinementStepsSlider.value = Float(configuration.adjacentJointOffsetRefinementSteps)
+        //adjacentJointOffsetRefinementStepsSlider.value = Float(configuration.adjacentJointOffsetRefinementSteps)
 
         updateUILabels()
     }
@@ -88,9 +88,9 @@ class ConfigurationViewController: UIViewController {
         configuration.matchingJointDistance = Double(matchingJointMinimumDistanceSlider.value)
     }
 
-    @IBAction func offsetRefineStepsValueChanged(_ sender: Any) {
-        configuration.adjacentJointOffsetRefinementSteps = Int(adjacentJointOffsetRefinementStepsSlider.value)
-    }
+//    @IBAction func offsetRefineStepsValueChanged(_ sender: Any) {
+//        configuration.adjacentJointOffsetRefinementSteps = Int(adjacentJointOffsetRefinementStepsSlider.value)
+//    }
 
     /// Update the UI labels using the `PoseBuilderConfiguration`.
     private func updateUILabels() {
@@ -113,8 +113,8 @@ class ConfigurationViewController: UIViewController {
         localJointSearchRadiusLabel.text! +=
         " (\(Int(configuration.localSearchRadius)))"
 
-        adjacentJointOffsetRefinementStepsLabel.text = adjacentJointOffsetRefinementStepsText
-        adjacentJointOffsetRefinementStepsLabel.text! +=
-        " (\(Int(configuration.adjacentJointOffsetRefinementSteps)))"
+        //adjacentJointOffsetRefinementStepsLabel.text = adjacentJointOffsetRefinementStepsText
+        //adjacentJointOffsetRefinementStepsLabel.text! +=
+        //" (\(Int(configuration.adjacentJointOffsetRefinementSteps)))"
     }
 }

@@ -54,7 +54,8 @@ extension PoseBuilder {
                 }
             }
         }
-
+        
+        
         // Update joint.
         joint.cell = bestCell
         joint.position = output.position(for: joint.name, at: joint.cell)

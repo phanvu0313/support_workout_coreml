@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008A4732DEE7B5968914175096166ADD /* CardSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB359272E43EC67FC1B4FFA3C839C0B /* CardSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3DFE61C8E3170D451DD58BDA4BA4AE /* CardSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925245F2E8F8007E943F6295CB43F155 /* CardSliderViewController.swift */; };
+		2D84F3CB93813BCE2933731BBC419133 /* Pods-PoseFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 954C51158C44081234FB11180FA07736 /* Pods-PoseFinder-dummy.m */; };
+		45DB4849983CA9E4ECCC2FBB42ED2FFC /* CardSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6D9766A2116A5094D56211F126943E /* CardSlider-dummy.m */; };
+		4FFAE0241A52F9249633ED272ECA6678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5606101842D2584E1E8DDC015DD1B475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A6CD0E39C9F1A98F5D82F54836A98A /* Main.storyboard */; };
+		61499B94265301806D5A3FFC39C086F7 /* Pods-PoseFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5140E87B6269EF5FE7550D06AE93A0F7 /* Pods-PoseFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		666655EA7C4F1385C1FCD679BA41ABAC /* CardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570BB6505A4AF1FA3DF8A44EC556FE5 /* CardsLayout.swift */; };
+		B799D64462C21B85F4E0D9DFF6C91CEE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A3883B312618E3F8AF280613D56454 /* Extensions.swift */; };
+		B86A56A3A3BD83B53B1EE06ACA1B08FF /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9B0078EE79A7D9DB71EB3122E43D45 /* RatingView.swift */; };
+		D956FB9F7DFE25EC1C7A07A81BD49353 /* CardTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF2A5D6B08C62F14336E5A6421FCE0A /* CardTitleView.swift */; };
+		DE58C1B8BEDE36A8D000D1008F5F8F67 /* CardSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E9E200490A55EB46C21A864DF50A50 /* CardSliderCell.swift */; };
+		E83951BCF37577F37166DBCD755CB629 /* CardSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */; };
+		EED3FB030390618E2D9F07658AC03D6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DE342EE62E28B9D4AD5B5BA2F3B4054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D11B0D1A6986453F8B1B1BACDA442BBA;
+			remoteInfo = CardSlider;
+		};
+		8D5EFA55E37A63842A459417C738D446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B483472F6440590861262522FEBEA49F;
+			remoteInfo = "CardSlider-CardSlider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04867A524725F58BAE77BBD2ABE2A9C2 /* CardSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CardSlider.debug.xcconfig; sourceTree = "<group>"; };
+		1CD45F5A2A3B08959A64C3F4E50CCE1F /* CardSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CardSlider.modulemap; sourceTree = "<group>"; };
+		5140E87B6269EF5FE7550D06AE93A0F7 /* Pods-PoseFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoseFinder-umbrella.h"; sourceTree = "<group>"; };
+		535163FB7F52E17E181453944FAE81D2 /* Pods-PoseFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoseFinder-frameworks.sh"; sourceTree = "<group>"; };
+		55EE72007C85F5959F948E3244631137 /* CardSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CardSlider-Info.plist"; sourceTree = "<group>"; };
+		5AD43302042AF70991800A9E178E92D4 /* Pods-PoseFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoseFinder.release.xcconfig"; sourceTree = "<group>"; };
+		5AEC2B5BFD027954DE5FCF7F7F27DC76 /* CardSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CardSlider.release.xcconfig; sourceTree = "<group>"; };
+		64563E48150C77C4689CAF981F7902BE /* CardSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CardSlider-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F9B0078EE79A7D9DB71EB3122E43D45 /* RatingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatingView.swift; path = CardSlider/CardSlider/Private/RatingView.swift; sourceTree = "<group>"; };
+		8662F8688852EECF19914A3704210C0B /* Pods-PoseFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoseFinder.modulemap"; sourceTree = "<group>"; };
+		89E9E200490A55EB46C21A864DF50A50 /* CardSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardSliderCell.swift; path = CardSlider/CardSlider/Public/CardSliderCell.swift; sourceTree = "<group>"; };
+		8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSlider.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF6C30134FCCAC789011AB5F8CBCC21 /* Pods-PoseFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoseFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		925245F2E8F8007E943F6295CB43F155 /* CardSliderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardSliderViewController.swift; path = CardSlider/CardSlider/Public/CardSliderViewController.swift; sourceTree = "<group>"; };
+		954C51158C44081234FB11180FA07736 /* Pods-PoseFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoseFinder-dummy.m"; sourceTree = "<group>"; };
+		99A6CD0E39C9F1A98F5D82F54836A98A /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = CardSlider/CardSlider/Private/Main.storyboard; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF2A5D6B08C62F14336E5A6421FCE0A /* CardTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTitleView.swift; path = CardSlider/CardSlider/Public/CardTitleView.swift; sourceTree = "<group>"; };
+		AE6D9766A2116A5094D56211F126943E /* CardSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CardSlider-dummy.m"; sourceTree = "<group>"; };
+		B188E33B9CE1CEDA347FA3BAD4DB35DE /* Pods-PoseFinder */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PoseFinder"; path = Pods_PoseFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27F40C7B5FCC28BCF4E6ECDAB9555BD /* Pods-PoseFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoseFinder-acknowledgements.plist"; sourceTree = "<group>"; };
+		C570BB6505A4AF1FA3DF8A44EC556FE5 /* CardsLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardsLayout.swift; path = CardSlider/CardSlider/Private/CardsLayout.swift; sourceTree = "<group>"; };
+		D1CB022EEC45D73985ADF424E1EACABD /* Pods-PoseFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoseFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		D36A502A0F749C2A2D331520D3682E00 /* Pods-PoseFinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoseFinder-Info.plist"; sourceTree = "<group>"; };
+		DDB359272E43EC67FC1B4FFA3C839C0B /* CardSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CardSlider-umbrella.h"; sourceTree = "<group>"; };
+		E5A3883B312618E3F8AF280613D56454 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CardSlider/CardSlider/Private/Extensions.swift; sourceTree = "<group>"; };
+		E9C33B703254CD686F08235089443EA5 /* ResourceBundle-CardSlider-CardSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CardSlider-CardSlider-Info.plist"; sourceTree = "<group>"; };
+		EF81FE7FCA7DDB5CBE9366C6E2178F7E /* CardSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42132C7DD89C4304E83889368EA06DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED3FB030390618E2D9F07658AC03D6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A2DD873B5FBAB256F992DA1531CE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F53F1338794F37EE17914079AD9939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFAE0241A52F9249633ED272ECA6678 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FC764C3EB497C4F19D3CF7FD620E58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF81FE7FCA7DDB5CBE9366C6E2178F7E /* CardSlider.framework */,
+				8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */,
+				B188E33B9CE1CEDA347FA3BAD4DB35DE /* Pods-PoseFinder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E0F5BEC03F564745D543663F2F0C1F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99A6CD0E39C9F1A98F5D82F54836A98A /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4F5219EC02CE7ADBE35EFD75434DFF56 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9670B31B4B92A10EB80448E4EB9B736 /* Pods-PoseFinder */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C3BA54E42F9A451BB62592637D734F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CD45F5A2A3B08959A64C3F4E50CCE1F /* CardSlider.modulemap */,
+				AE6D9766A2116A5094D56211F126943E /* CardSlider-dummy.m */,
+				55EE72007C85F5959F948E3244631137 /* CardSlider-Info.plist */,
+				64563E48150C77C4689CAF981F7902BE /* CardSlider-prefix.pch */,
+				DDB359272E43EC67FC1B4FFA3C839C0B /* CardSlider-umbrella.h */,
+				04867A524725F58BAE77BBD2ABE2A9C2 /* CardSlider.debug.xcconfig */,
+				5AEC2B5BFD027954DE5FCF7F7F27DC76 /* CardSlider.release.xcconfig */,
+				E9C33B703254CD686F08235089443EA5 /* ResourceBundle-CardSlider-CardSlider-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CardSlider";
+			sourceTree = "<group>";
+		};
+		A05DB2B77F95FEB5169D7B413A21A2C1 /* CardSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C570BB6505A4AF1FA3DF8A44EC556FE5 /* CardsLayout.swift */,
+				89E9E200490A55EB46C21A864DF50A50 /* CardSliderCell.swift */,
+				925245F2E8F8007E943F6295CB43F155 /* CardSliderViewController.swift */,
+				9DF2A5D6B08C62F14336E5A6421FCE0A /* CardTitleView.swift */,
+				E5A3883B312618E3F8AF280613D56454 /* Extensions.swift */,
+				7F9B0078EE79A7D9DB71EB3122E43D45 /* RatingView.swift */,
+				2E0F5BEC03F564745D543663F2F0C1F9 /* Resources */,
+				7C3BA54E42F9A451BB62592637D734F4 /* Support Files */,
+			);
+			path = CardSlider;
+			sourceTree = "<group>";
+		};
+		A9670B31B4B92A10EB80448E4EB9B736 /* Pods-PoseFinder */ = {
+			isa = PBXGroup;
+			children = (
+				8662F8688852EECF19914A3704210C0B /* Pods-PoseFinder.modulemap */,
+				8CF6C30134FCCAC789011AB5F8CBCC21 /* Pods-PoseFinder-acknowledgements.markdown */,
+				C27F40C7B5FCC28BCF4E6ECDAB9555BD /* Pods-PoseFinder-acknowledgements.plist */,
+				954C51158C44081234FB11180FA07736 /* Pods-PoseFinder-dummy.m */,
+				535163FB7F52E17E181453944FAE81D2 /* Pods-PoseFinder-frameworks.sh */,
+				D36A502A0F749C2A2D331520D3682E00 /* Pods-PoseFinder-Info.plist */,
+				5140E87B6269EF5FE7550D06AE93A0F7 /* Pods-PoseFinder-umbrella.h */,
+				D1CB022EEC45D73985ADF424E1EACABD /* Pods-PoseFinder.debug.xcconfig */,
+				5AD43302042AF70991800A9E178E92D4 /* Pods-PoseFinder.release.xcconfig */,
+			);
+			name = "Pods-PoseFinder";
+			path = "Target Support Files/Pods-PoseFinder";
+			sourceTree = "<group>";
+		};
+		AA05BCA21E400C25DB41097C09048D39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A05DB2B77F95FEB5169D7B413A21A2C1 /* CardSlider */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AA05BCA21E400C25DB41097C09048D39 /* Pods */,
+				00FC764C3EB497C4F19D3CF7FD620E58 /* Products */,
+				4F5219EC02CE7ADBE35EFD75434DFF56 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EEF8F90C9A1E8515663DED0D1F96836 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A4732DEE7B5968914175096166ADD /* CardSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F520D72E1F2429EECEA65E9932040CAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61499B94265301806D5A3FFC39C086F7 /* Pods-PoseFinder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B483472F6440590861262522FEBEA49F /* CardSlider-CardSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FCAFB0B20330ACF8AF2403D9A9D40E9 /* Build configuration list for PBXNativeTarget "CardSlider-CardSlider" */;
+			buildPhases = (
+				1F29C1EE061480F47238ED72DC3B2640 /* Sources */,
+				63A2DD873B5FBAB256F992DA1531CE60 /* Frameworks */,
+				0D86DE966BFCB2E0EE4711BEC6F3BCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardSlider-CardSlider";
+			productName = CardSlider;
+			productReference = 8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D11B0D1A6986453F8B1B1BACDA442BBA /* CardSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A16B0C526AE8E518B1087750B453D78 /* Build configuration list for PBXNativeTarget "CardSlider" */;
+			buildPhases = (
+				4EEF8F90C9A1E8515663DED0D1F96836 /* Headers */,
+				007D90BEC471FCAEA9FA901DD136E7F3 /* Sources */,
+				92F53F1338794F37EE17914079AD9939 /* Frameworks */,
+				4069882E22EB591F711725A738631B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA811F1C11E0BE264EC1AAE15F45CA8 /* PBXTargetDependency */,
+			);
+			name = CardSlider;
+			productName = CardSlider;
+			productReference = EF81FE7FCA7DDB5CBE9366C6E2178F7E /* CardSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2EDD50EACE86BBDD19FFB6561F8F6AF /* Pods-PoseFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB624801720D9DD5CD61D2A2137F72A9 /* Build configuration list for PBXNativeTarget "Pods-PoseFinder" */;
+			buildPhases = (
+				F520D72E1F2429EECEA65E9932040CAC /* Headers */,
+				FFDA8329A9CB920032BA64807B265CAD /* Sources */,
+				42132C7DD89C4304E83889368EA06DBF /* Frameworks */,
+				8B8B7E6D8B34CD9D5E9FD3328B582C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BD64C2C782D886BE32D7899BD991EE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-PoseFinder";
+			productName = Pods_PoseFinder;
+			productReference = B188E33B9CE1CEDA347FA3BAD4DB35DE /* Pods-PoseFinder */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 00FC764C3EB497C4F19D3CF7FD620E58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D11B0D1A6986453F8B1B1BACDA442BBA /* CardSlider */,
+				B483472F6440590861262522FEBEA49F /* CardSlider-CardSlider */,
+				F2EDD50EACE86BBDD19FFB6561F8F6AF /* Pods-PoseFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D86DE966BFCB2E0EE4711BEC6F3BCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5606101842D2584E1E8DDC015DD1B475 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4069882E22EB591F711725A738631B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83951BCF37577F37166DBCD755CB629 /* CardSlider.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8B7E6D8B34CD9D5E9FD3328B582C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007D90BEC471FCAEA9FA901DD136E7F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666655EA7C4F1385C1FCD679BA41ABAC /* CardsLayout.swift in Sources */,
+				45DB4849983CA9E4ECCC2FBB42ED2FFC /* CardSlider-dummy.m in Sources */,
+				DE58C1B8BEDE36A8D000D1008F5F8F67 /* CardSliderCell.swift in Sources */,
+				0B3DFE61C8E3170D451DD58BDA4BA4AE /* CardSliderViewController.swift in Sources */,
+				D956FB9F7DFE25EC1C7A07A81BD49353 /* CardTitleView.swift in Sources */,
+				B799D64462C21B85F4E0D9DFF6C91CEE /* Extensions.swift in Sources */,
+				B86A56A3A3BD83B53B1EE06ACA1B08FF /* RatingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F29C1EE061480F47238ED72DC3B2640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDA8329A9CB920032BA64807B265CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D84F3CB93813BCE2933731BBC419133 /* Pods-PoseFinder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CA811F1C11E0BE264EC1AAE15F45CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CardSlider-CardSlider";
+			target = B483472F6440590861262522FEBEA49F /* CardSlider-CardSlider */;
+			targetProxy = 8D5EFA55E37A63842A459417C738D446 /* PBXContainerItemProxy */;
+		};
+		8BD64C2C782D886BE32D7899BD991EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CardSlider;
+			target = D11B0D1A6986453F8B1B1BACDA442BBA /* CardSlider */;
+			targetProxy = 2DE342EE62E28B9D4AD5B5BA2F3B4054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17E9F726156080601F03F9D3BA51BF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEC2B5BFD027954DE5FCF7F7F27DC76 /* CardSlider.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CardSlider";
+				IBSC_MODULE = CardSlider;
+				INFOPLIST_FILE = "Target Support Files/CardSlider/ResourceBundle-CardSlider-CardSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		344B77B8B7C137708722417C3747A3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04867A524725F58BAE77BBD2ABE2A9C2 /* CardSlider.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CardSlider";
+				IBSC_MODULE = CardSlider;
+				INFOPLIST_FILE = "Target Support Files/CardSlider/ResourceBundle-CardSlider-CardSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6A10E92163784657AB882B46A7117D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CB022EEC45D73985ADF424E1EACABD /* Pods-PoseFinder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoseFinder/Pods-PoseFinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoseFinder/Pods-PoseFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D1A897F4453269EC665D934A839E885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD43302042AF70991800A9E178E92D4 /* Pods-PoseFinder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoseFinder/Pods-PoseFinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoseFinder/Pods-PoseFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		998DE0E74F706CC49F8303E5C37D65EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04867A524725F58BAE77BBD2ABE2A9C2 /* CardSlider.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CardSlider/CardSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CardSlider/CardSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CardSlider/CardSlider.modulemap";
+				PRODUCT_MODULE_NAME = CardSlider;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D460D476AA6F3398EE3D4A5C8871BDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEC2B5BFD027954DE5FCF7F7F27DC76 /* CardSlider.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CardSlider/CardSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CardSlider/CardSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CardSlider/CardSlider.modulemap";
+				PRODUCT_MODULE_NAME = CardSlider;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FCAFB0B20330ACF8AF2403D9A9D40E9 /* Build configuration list for PBXNativeTarget "CardSlider-CardSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344B77B8B7C137708722417C3747A3F3 /* Debug */,
+				17E9F726156080601F03F9D3BA51BF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A16B0C526AE8E518B1087750B453D78 /* Build configuration list for PBXNativeTarget "CardSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998DE0E74F706CC49F8303E5C37D65EA /* Debug */,
+				D460D476AA6F3398EE3D4A5C8871BDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB624801720D9DD5CD61D2A2137F72A9 /* Build configuration list for PBXNativeTarget "Pods-PoseFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A10E92163784657AB882B46A7117D0B /* Debug */,
+				8D1A897F4453269EC665D934A839E885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

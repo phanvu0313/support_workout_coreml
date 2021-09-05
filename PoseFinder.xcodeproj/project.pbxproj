@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,11 @@
 		0DCEF2C92416701D00ECEC99 /* PoseBuilder+Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCEF2C82416701D00ECEC99 /* PoseBuilder+Single.swift */; };
 		0DCEF2CB2416709B00ECEC99 /* PoseBuilder+Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCEF2CA2416709B00ECEC99 /* PoseBuilder+Multiple.swift */; };
 		0DCEF2CE241676C000ECEC99 /* PoseBuilderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCEF2CD241676C000ECEC99 /* PoseBuilderConfiguration.swift */; };
+		32236FE926CF7FBF00067BC0 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32236FE826CF7FBF00067BC0 /* MyTableViewCell.swift */; };
+		322EDA7D26CF588700971816 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EDA7C26CF588700971816 /* MainViewController.swift */; };
+		323AD19326CFE92E001E45CE /* squatsVid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 323AD19226CFE92E001E45CE /* squatsVid.mp4 */; };
+		32625E7726D5144500D93EF1 /* ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32625E7626D5144500D93EF1 /* ok.mp3 */; };
+		327F485126D73FBC003FEA12 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F485026D73FBC003FEA12 /* MoreViewController.swift */; };
 		4A0FC5BC23190AD6004886B9 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0FC5BB23190AD6004886B9 /* CGPoint+Extension.swift */; };
 		4A2D05CE23BF9A2C00D002ED /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D05CD23BF9A2C00D002ED /* ConfigurationViewController.swift */; };
 		4A2D05D023BF9BBF00D002ED /* PopOverModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D05CF23BF9BBF00D002ED /* PopOverModalViewController.swift */; };
@@ -30,16 +35,22 @@
 		4AE8C3CF23AD2A74005F9953 /* CGImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8C3CE23AD2A74005F9953 /* CGImage+Extension.swift */; };
 		4AE8C3D123AD2D3B005F9953 /* PoseNetInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8C3D023AD2D3B005F9953 /* PoseNetInput.swift */; };
 		4AE8C3D323AD2D8A005F9953 /* PoseNetOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8C3D223AD2D8A005F9953 /* PoseNetOutput.swift */; };
+		8BA004FB59565862350FED4E /* Pods_PoseFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803E35064F8AC03E35366752 /* Pods_PoseFinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0563E980FDE557646F54ED8A /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		0563E980FDE557646F54ED8A /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		0D4BB83E249769C800076D64 /* PoseNetMobileNet075S16FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNetMobileNet075S16FP16.mlmodel; sourceTree = "<group>"; };
 		0DCEF2C6241666CA00ECEC99 /* PoseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseBuilder.swift; sourceTree = "<group>"; };
 		0DCEF2C82416701D00ECEC99 /* PoseBuilder+Single.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Single.swift"; sourceTree = "<group>"; };
 		0DCEF2CA2416709B00ECEC99 /* PoseBuilder+Multiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Multiple.swift"; sourceTree = "<group>"; };
 		0DCEF2CD241676C000ECEC99 /* PoseBuilderConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseBuilderConfiguration.swift; sourceTree = "<group>"; };
-		420B7A9F4BA833CE510130DA /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
+		32236FE826CF7FBF00067BC0 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		322EDA7C26CF588700971816 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		323AD19226CFE92E001E45CE /* squatsVid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squatsVid.mp4; sourceTree = "<group>"; };
+		32625E7626D5144500D93EF1 /* ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok.mp3; sourceTree = "<group>"; };
+		327F485026D73FBC003FEA12 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		420B7A9F4BA833CE510130DA /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
 		4A0FC5BB23190AD6004886B9 /* CGPoint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
 		4A2D05CD23BF9A2C00D002ED /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
 		4A2D05CF23BF9BBF00D002ED /* PopOverModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverModalViewController.swift; sourceTree = "<group>"; };
@@ -60,8 +71,10 @@
 		4AE8C3CE23AD2A74005F9953 /* CGImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage+Extension.swift"; sourceTree = "<group>"; };
 		4AE8C3D023AD2D3B005F9953 /* PoseNetInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseNetInput.swift; sourceTree = "<group>"; };
 		4AE8C3D223AD2D8A005F9953 /* PoseNetOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseNetOutput.swift; sourceTree = "<group>"; };
-		57C02DF057C02B4000000001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BEE6CF152B804A05BF905D20 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		803E35064F8AC03E35366752 /* Pods_PoseFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoseFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		867FC9CFAD408FABD8E46167 /* Pods-PoseFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoseFinder.debug.xcconfig"; path = "Target Support Files/Pods-PoseFinder/Pods-PoseFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		918AFF0FCBBC763E9BC93DF3 /* Pods-PoseFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoseFinder.release.xcconfig"; path = "Target Support Files/Pods-PoseFinder/Pods-PoseFinder.release.xcconfig"; sourceTree = "<group>"; };
+		BEE6CF152B804A05BF905D20 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA004FB59565862350FED4E /* Pods_PoseFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +95,6 @@
 				0563E980FDE557646F54ED8A /* LICENSE.txt */,
 				420B7A9F4BA833CE510130DA /* ACKNOWLEDGMENTS.txt */,
 			);
-			name = LICENSE;
 			path = LICENSE;
 			sourceTree = "<group>";
 		};
@@ -106,14 +119,32 @@
 			name = Configuration;
 			sourceTree = "<group>";
 		};
+		323AD19126CFE908001E45CE /* video */ = {
+			isa = PBXGroup;
+			children = (
+				323AD19226CFE92E001E45CE /* squatsVid.mp4 */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		32625E7326D4B36E00D93EF1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				32625E7626D5144500D93EF1 /* ok.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		4A2D23A522BB70E400494C55 = {
 			isa = PBXGroup;
 			children = (
-				57C02DF057C02B4000000001 /* README.md */,
 				4A2D23B022BB70E400494C55 /* PoseFinder */,
+				32625E7326D4B36E00D93EF1 /* Sounds */,
 				4A2D23AF22BB70E400494C55 /* Products */,
 				1E2F76EA3781C8213469E3A0 /* Configuration */,
 				0D8A71B927BDB43FD8F91908 /* LICENSE */,
+				65DAB70B3ADB28425E20F233 /* Pods */,
+				A8F47ED23488E479E8EDC8C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +190,7 @@
 		6594E5192345489C00D3C44D /* App */ = {
 			isa = PBXGroup;
 			children = (
+				323AD19126CFE908001E45CE /* video */,
 				4A2D23B122BB70E400494C55 /* AppDelegate.swift */,
 				4A2D23BF22BB70E500494C55 /* Info.plist */,
 				4A2D23B722BB70E400494C55 /* Main.storyboard */,
@@ -176,6 +208,9 @@
 				4A6C8A8123E84D1D0080886A /* GradientOverlayView.swift */,
 				4A2D05CD23BF9A2C00D002ED /* ConfigurationViewController.swift */,
 				4A2D05CF23BF9BBF00D002ED /* PopOverModalViewController.swift */,
+				322EDA7C26CF588700971816 /* MainViewController.swift */,
+				32236FE826CF7FBF00067BC0 /* MyTableViewCell.swift */,
+				327F485026D73FBC003FEA12 /* MoreViewController.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -191,6 +226,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		65DAB70B3ADB28425E20F233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				867FC9CFAD408FABD8E46167 /* Pods-PoseFinder.debug.xcconfig */,
+				918AFF0FCBBC763E9BC93DF3 /* Pods-PoseFinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8F47ED23488E479E8EDC8C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				803E35064F8AC03E35366752 /* Pods_PoseFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A2D23C222BB70E500494C55 /* Build configuration list for PBXNativeTarget "PoseFinder" */;
 			buildPhases = (
+				224CDF7D818F4E689E479B7E /* [CP] Check Pods Manifest.lock */,
 				4A2D23AA22BB70E400494C55 /* Sources */,
 				4A2D23AB22BB70E400494C55 /* Frameworks */,
 				4A2D23AC22BB70E400494C55 /* Resources */,
+				10F1BAD4C469F233295916B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +303,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32625E7726D5144500D93EF1 /* ok.mp3 in Resources */,
+				323AD19326CFE92E001E45CE /* squatsVid.mp4 in Resources */,
 				4A2D23BE22BB70E500494C55 /* LaunchScreen.storyboard in Resources */,
 				4A2D23BB22BB70E500494C55 /* Assets.xcassets in Resources */,
 				4A2D23B922BB70E400494C55 /* Main.storyboard in Resources */,
@@ -257,13 +313,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10F1BAD4C469F233295916B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoseFinder/Pods-PoseFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoseFinder/Pods-PoseFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoseFinder/Pods-PoseFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		224CDF7D818F4E689E479B7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoseFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A2D23AA22BB70E400494C55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322EDA7D26CF588700971816 /* MainViewController.swift in Sources */,
 				4A2D05D023BF9BBF00D002ED /* PopOverModalViewController.swift in Sources */,
 				0DCEF2C92416701D00ECEC99 /* PoseBuilder+Single.swift in Sources */,
+				32236FE926CF7FBF00067BC0 /* MyTableViewCell.swift in Sources */,
 				0DCEF2CB2416709B00ECEC99 /* PoseBuilder+Multiple.swift in Sources */,
 				0DCEF2C7241666CA00ECEC99 /* PoseBuilder.swift in Sources */,
 				4A6C8A8223E84D1D0080886A /* GradientOverlayView.swift in Sources */,
@@ -276,6 +376,7 @@
 				4AE8C3D123AD2D3B005F9953 /* PoseNetInput.swift in Sources */,
 				4AA5C4BA22BBBC2A00277977 /* PoseNet.swift in Sources */,
 				4AE8C3D323AD2D8A005F9953 /* PoseNetOutput.swift in Sources */,
+				327F485126D73FBC003FEA12 /* MoreViewController.swift in Sources */,
 				0DCEF2CE241676C000ECEC99 /* PoseBuilderConfiguration.swift in Sources */,
 				4ADD52F822BBCF580008FAAC /* Joint.swift in Sources */,
 				4ADE4C8C2346C07300FFD895 /* AVCaptureVideoOrientation+Extension.swift in Sources */,
@@ -309,7 +410,6 @@
 /* Begin XCBuildConfiguration section */
 		4A2D23C022BB70E500494C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEE6CF152B804A05BF905D20 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -371,7 +471,6 @@
 		};
 		4A2D23C122BB70E500494C55 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEE6CF152B804A05BF905D20 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -427,17 +526,17 @@
 		};
 		4A2D23C322BB70E500494C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEE6CF152B804A05BF905D20 /* SampleCode.xcconfig */;
+			baseConfigurationReference = 867FC9CFAD408FABD8E46167 /* Pods-PoseFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GJR44NX6JM;
 				INFOPLIST_FILE = PoseFinder/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.posefinder${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.vu.posefinder;
 				PRODUCT_NAME = PoseFinder;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -447,17 +546,17 @@
 		};
 		4A2D23C422BB70E500494C55 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEE6CF152B804A05BF905D20 /* SampleCode.xcconfig */;
+			baseConfigurationReference = 918AFF0FCBBC763E9BC93DF3 /* Pods-PoseFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GJR44NX6JM;
 				INFOPLIST_FILE = PoseFinder/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.posefinder${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.vu.posefinder;
 				PRODUCT_NAME = PoseFinder;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

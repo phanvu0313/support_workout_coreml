@@ -10,10 +10,17 @@ import AVFoundation
 import UIKit
 import VideoToolbox
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIGestureRecognizerDelegate {
+    private var animator: UIViewPropertyAnimator?
+    var player: AVAudioPlayer?
+    @IBOutlet var textLab: UILabel!
+    @IBOutlet var countLab: UILabel!
+    var count = 0
+    var nameWO = ""
     /// The view the controller uses to visualize the detected poses.
     @IBOutlet private var previewImageView: PoseImageView!
-
+    
+    
     private let videoCapture = VideoCapture()
 
     private var poseNet: PoseNet!
@@ -28,10 +35,15 @@ class ViewController: UIViewController {
     private var poseBuilderConfiguration = PoseBuilderConfiguration()
 
     private var popOverPresentationManager: PopOverPresentationManager?
-
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-
+        
+        
+        //print(nameWO)
+        textLab.text = nameWO
+        previewImageView.name = nameWO
         // For convenience, the idle timer is disabled to prevent the screen from locking.
         UIApplication.shared.isIdleTimerDisabled = true
 
@@ -44,7 +56,15 @@ class ViewController: UIViewController {
         poseNet.delegate = self
         setupAndBeginCapturingVideoFrames()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+        navigationController?.interactivePopGestureRecognizer?.delegate = self
+        navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+    }
 
+    
     private func setupAndBeginCapturingVideoFrames() {
         videoCapture.setUpAVCapture { error in
             if let error = error {
@@ -55,12 +75,20 @@ class ViewController: UIViewController {
             self.videoCapture.delegate = self
 
             self.videoCapture.startCapturing()
+            
         }
     }
 
     override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        animator?.stopAnimation(true)
+        if let animator = animator, animator.state != .inactive {
+            animator.finishAnimation(at: .current)
+        }
+        navigationController?.setNavigationBarHidden(false, animated: animated)
         videoCapture.stopCapturing {
             super.viewWillDisappear(animated)
+            
         }
     }
 
@@ -163,5 +191,75 @@ extension ViewController: PoseNetDelegate {
             : poseBuilder.poses
 
         previewImageView.show(poses: poses, on: currentFrame)
+        if(nameWO == "Squats")
+        {// neu la squat thi 2 chan > 100 do
+            if (previewImageView.rk <= 100 && previewImageView.lk <= 100 ) && (previewImageView.rk > 0 && previewImageView.lk > 0 ){
+                //count = count + 1
+                self.countLab.text = String("🟢")
+                playSound()
+            }
+            else{
+                self.countLab.text = String("🔴")
+            }
+        }
+        else if (nameWO == "Standing dumbbell")
+        {//neu la standing dumbell thi 2 chan lon hon 100 do va 2 tay be hon 100 do
+            if (previewImageView.re <= 95 && previewImageView.le <= 95 ) && (previewImageView.rk > 90 && previewImageView.lk > 90 ){
+                //count = count + 1
+                self.countLab.text = String("🟢")
+                playSound()
+            }
+            else{
+                self.countLab.text = String("🔴")
+            }
+        }
+        else if (nameWO == "Planks")
+        {//2 tay be hon 90 do va 2 chan lon hon 145
+            if (previewImageView.re <= 90 && previewImageView.le <= 90 ) && (previewImageView.re > 0 && previewImageView.le > 0 ) && (previewImageView.rk > 145 && previewImageView.lk > 145 ){
+                //count = count + 1
+                self.countLab.text = String("🟢")
+                playSound()
+            }
+            else{
+                self.countLab.text = String("🔴")
+            }
+        }
+        else if (nameWO == "Pushups")
+        {//2 chan lon hon 145 va 2 tay hon 90
+            if (previewImageView.re <= 90 && previewImageView.le <= 90 ) && (previewImageView.le > 0 && previewImageView.re > 0 ) && (previewImageView.rk > 145 && previewImageView.lk > 145 ){
+                //count = count + 1
+                self.countLab.text = String("🟢")
+                playSound()
+            }
+            else{
+                self.countLab.text = String("🔴")
+            }
+        }
+        
     }
+    
+
+    func playSound() {
+        guard let url = Bundle.main.url(forResource: "ok", withExtension: "mp3") else {
+            print("url not found")
+            return
+        }
+
+        do {
+            /// this codes for making this app ready to takeover the device audio
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
+            try AVAudioSession.sharedInstance().setActive(true)
+
+            /// change fileTypeHint according to the type of your audio file (you can omit this)
+
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: "")
+
+            // no need for prepareToPlay because prepareToPlay is happen automatically when calling play()
+            player!.play()
+        } catch let error as NSError {
+            print("error: \(error.localizedDescription)")
+        }
+    }
+
 }
+
